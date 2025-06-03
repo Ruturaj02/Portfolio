@@ -26,24 +26,17 @@ import vercelLogo from "./assets/tech_logo/vercel.png";
 import TTlogo from "./assets/company_logo/TT logo.png";
 
 // Education Section Logo's
-import glaLogo from "./assets/education_logo/gla_logo.png";
-import bsaLogo from "./assets/education_logo/bsa_logo.png";
-import vpsLogo from "./assets/education_logo/vps_logo.png";
+import interLogo from "./assets/education_logo/+2 logo.png";
+import BSCLogo from "./assets/education_logo/Bachelor's logo.jpg";
+import masterLogo from "./assets/education_logo/master_logo2.png";
 
 // Project Section Logo's
 import bmiCalculator from "./assets/work_logo/bmi calculator logo.png"; 
 import addToCart from "./assets/work_logo/Added-to-cart logo.png";
 import todoLogo from './assets/work_logo/todo-logo.png';
-
 import csprepLogo from './assets/work_logo/cs_prep.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
-import githubdetLogo from "./assets/work_logo/github_det.png";
-import taskremLogo from "./assets/work_logo/task_rem.png";
-import npmLogo from "./assets/work_logo/npm.png";
-import webverLogo from "./assets/work_logo/web_dig.png";
-import cmLogo from "./assets/work_logo/cm.png";
-import imagesearchLogo from "./assets/work_logo/image_search.png";
-import removebgLogo from "./assets/work_logo/remove_bg.png";
+
 
 export const SkillsInfo = [
   {
@@ -116,39 +109,39 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: glaLogo,
-    school: "GLA University, Mathura",
-    date: "Sept 2022 - July 2024",
+    img: masterLogo,
+    school: "G. Pullareddy Degree & P.G College, Hyderabad",
+    date: "Aug 2019 - sept 2021",
     grade: "7.81 CGPA",
-    desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-    degree: "Master of Computer Applications - MCA",
+    desc: "I have completed my Master's degree (MCA) in Physics from G. Pullareddy Degree & P.G College, Hyderabad. During my time at G Pullareddy , I am honed my skills by learning full stack development using javascript , Take some courses for better understanding  of the language for  prepare myself for industry standard.",
+    degree: "Master of Science - MSC",
   },
   {
     id: 1,
-    img: bsaLogo,
-    school: "BSA College, Mathura",
-    date: "Sept 2018 - Aug 2021",
+    img: BSCLogo,
+    school: "Remuna Degree College ,Remuna",
+    date: "Aug 2016 - Apr 2019",
     grade: "73.2%",
-    desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-    degree: "Bachelor of Science - BSC (Computer Science)",
+    desc: "I completed my Bachelor's degree in Physics (B.Sc.) from Remuna Degree College ,Remuna. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of Physics . And learning javascript language and its fundamental during that period .",
+    degree: "Bachelor of Science - BSC (Physics)",
   },
   {
     id: 2,
-    img: vpsLogo,
-    school: "Vatsalya Public School Govardhan, Mathura",
-    date: "Apr 2017 - March 2018",
+    img: interLogo,
+    school: "Gopalpur Junior College,Gopalpur",
+    date: "Apr 2014 - March 2016",
     grade: "78%",
-    desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-    degree: "CBSE(XII) - PCM with Computer Science",
+    desc: "I completed my class 12 education from Gopalpur Junior College ,Gopalpur , Balasore , under the CHSE board Odisha, where I studied Physics, Chemistry, and Mathematics (PCM) With biology and some Basic Computer Science .",
+    degree: "CHSE(XII) - PCM IN Science",
   },
   {
     id: 3,
-    img: vpsLogo,
-    school: "Vatsalya Public School Govardhan, Mathura",
-    date: "Apr 2015 - March 2016",
+    img: interLogo,
+    school: "K.M.U.B.P Karanjabindha ",
+    date: "Apr 2013 - March 2014",
     grade: "87.5%",
-    desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-    degree: "CBSE(X), Science with Computer Application",
+    desc: "I completed my class 10 education from Kshetramohan Ucha Bidyapitha, Karanjabindha, under the BSE board Odisha, where I studied Science with Computer.",
+    degree: "BSE(X), Science ",
   },
 ];
 
