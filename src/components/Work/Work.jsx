@@ -4,9 +4,13 @@ import { projects } from "../../constants";
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
+  // for handle close & open modal inside the projecct
+
   const handleOpenModal = (project) => {
     setSelectedProject(project);
   };
+
+
 
   const handleCloseModal = () => {
     setSelectedProject(null);
@@ -17,7 +21,7 @@ const Work = () => {
       id="work"
       className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
     >
-      {/* Section Title */}
+      {/* Project Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
@@ -64,7 +68,7 @@ const Work = () => {
         ))}
       </div>
 
-      {/* Modal Container */}
+      {/* Modal Container when you open project*/}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
           <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
@@ -102,6 +106,7 @@ const Work = () => {
                     </span>
                   ))}
                 </div>
+                {/* for viewing code &  github Link   */}
                 <div className="flex gap-4">
                   <a
                     href={selectedProject.github}
