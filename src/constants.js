@@ -11,7 +11,6 @@ import materialuiLogo from "./assets/tech_logo/materialui.png";
 import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
-
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
 import typescriptLogo from "./assets/tech_logo/typescript.png";
 import gitLogo from "./assets/tech_logo/git.png";
@@ -31,12 +30,12 @@ import BSCLogo from "./assets/education_logo/Bachelor's logo.jpg";
 import masterLogo from "./assets/education_logo/master_logo2.png";
 
 // Project Section Logo's
-import bmiCalculator from "./assets/work_logo/bmi calculator logo.png"; 
+import bmiCalculator from "./assets/work_logo/bmi calculator logo.png";
 import addToCart from "./assets/work_logo/Added-to-cart logo.png";
-import todoLogo from './assets/work_logo/todo-logo.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-
+import todoLogo from "./assets/work_logo/todo-logo.png";
+import csprepLogo from "./assets/work_logo/cs_prep.png";
+import movierecLogo from "./assets/work_logo/movie_rec.png";
+import ecommerce from "./assets/work_logo/Ecommerce-logo.png";
 
 export const SkillsInfo = [
   {
@@ -89,18 +88,19 @@ export const experiences = [
     img: TTlogo,
     role: "Frontend Developer",
     company: "TT INFOTECHS PVT LTD",
-    date: "Oct 2022 - Present",
-    desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+    date: "May 2023 - Present",
+    desc: "Developed dynamic and scalable web applications using the MERN stack, handling only frontend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
     skills: [
       "HTML",
       "CSS",
+      "Bootstrap",
       "JavaScript",
       "React JS",
       "TypeScript",
       "Node JS",
       "Tailwind CSS",
       "MongoDb",
-      "Redux",
+      "Redux js",
       " Next Js",
     ],
   },
@@ -176,43 +176,71 @@ export const projects = [
     webapp: "https://csprep.netlify.app/",
   },
   {
-    id: 2,
+    id: 1,
     title: "BMI Calculator",
     description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      "An efficient and customizable BMI Calculator for Calculating Body mass index using height ,weight. Built using React.js ,javascript, html, css, it provides .",
+    image: bmiCalculator,
+    tags: ["React JS", "javascript", "html", "Css"],
+    github: "https://github.com/Ruturaj02/BMI-calculator",
+    webapp: "https://bmi-calculator-psi-blue.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Added To Cart",
+    description:
+      "Build A product page for fetching products from API and show it on product page , product added to cart and remove it functionality attached to it  .Technology used for creating this project is Html ,  Css , javascript , tailwind css , react js .",
+    image: addToCart,
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind Css",
+      "React js",
+      "Github",
+      "Vercel",
+    ],
+    github: "https://github.com/Ruturaj02/Added-to-cart",
+    webapp: "https://added-to-cart.vercel.app/",
   },
   {
     id: 3,
-    title: "BMI Calculator",
+    title: "Todo App",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    image: bmiCalculator,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
-    github: "https://github.com/codingmastr/cmtk-email-validator",
-    webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      "The official website forTodo App, a creative Todo App to make todos. Built using HTML, CSS, JavaScript, tailwindcss and React js, it features visually appealing animations and a clean design to showcase the todo lists.",
+    image: todoLogo,
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind Css",
+      "React js",
+      "Github",
+      "Vercel",
+    ],
+    github: "https://github.com/Ruturaj02/todo_app",
+    webapp: "https://todo-app-seven-lilac-38.vercel.app/",
   },
   {
     id: 4,
-    title: "Added To Cart",
+    title: "Ecommerce App",
     description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    image: addToCart,
-    tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-  },
-  {
-    id: 5,
-    title: "Todo App",
-    description:
-      "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    image: todoLogo,
-    tags: ["HTML", "CSS", "JavaScript", "Tailwind Css","React js","Github","Vercel"],
-    github: "https://github.com/codingmastr/Webverse-Digital",
-    webapp: "https://webversedigital.com/",
+      "A powerful and user-friendly Fullstack Ecommerce Application designed for browse products ,sort products and search products using filter and search functionality according to your liking . And you can order product in this application also . ",
+    image: ecommerce,
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind Css",
+      "React js",
+      "Node js",
+      "Express js",
+      "JWt",
+      "MongoDB",
+      "Github",
+      "Vercel",
+    ],
+    github: "https://github.com/Ruturaj02/mern-ecommerce",
+    webapp: "https://mern-ecommerce-sepia.vercel.app/login",
   },
 ];
