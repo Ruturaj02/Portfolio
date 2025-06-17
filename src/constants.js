@@ -34,6 +34,8 @@ import bmiCalculator from "./assets/work_logo/bmi calculator logo.png";
 import addToCart from "./assets/work_logo/Added-to-cart logo.png";
 import todoLogo from "./assets/work_logo/todo-logo.png";
 import ecommerce from "./assets/work_logo/Ecommerce-logo.png";
+import quiz from "./assets/work_logo/quiz_app.png";
+import geminiLogo from "./assets/work_logo/gemini_clone.png";
 
 export const SkillsInfo = [
   {
@@ -146,32 +148,28 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Todo List App",
+    title: "Gemini Clone",
     description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    image: todoLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+      "A powerful and user-friendly React.js application designed to create a real-world AI chatbot-style UI with clean code and modern design principles . IT is a Gemini AI Clone app same as gemini , You can use it for ai assistance ",
+    image: geminiLogo,
+    tags: ["HTML", "CSS", "JavaScript", "React JS", "Gemini API" , "Tailwind Css"],
     github:
-      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+      "https://github.com/Ruturaj02/Gemini_Clone",
+    webapp: "https://gemini-clone-jade-nu.vercel.app/",
   },
   {
     id: 1,
-    title: "Add To Cart",
+    title: "Quiz App",
     description:
-      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    image: todoLogo,
+      "A  quiz-App for multiple choice questions designed for Frontend Interview questions and according to your answer you can check your score ",
+    image: quiz,
     tags: [
-      "React JS",
-      "Node.js",
-      "MongoDB",
-      "Express",
       "HTML",
       "CSS",
       "JavaScript",
     ],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+    github: "https://github.com/Ruturaj02/project/tree/main/Quiz%20app",
+    webapp: "https://luxury-hamster-5c880a.netlify.app/",
   },
   {
     id: 1,
