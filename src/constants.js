@@ -154,8 +154,8 @@ export const projects = [
     image: geminiLogo,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "Gemini API" , "Tailwind Css"],
     github:
-      "https://github.com/Ruturaj02/Gemini_Clone",
-    webapp: "https://gemini-clone-jade-nu.vercel.app/",
+      "https://github.com/Ruturaj02/ai-tool-gemini",
+    webapp: "https://ai-tool-gemini.vercel.app/",
   },
   {
     id: 1,
