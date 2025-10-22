@@ -183,7 +183,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Added To Cart",
+    title: "Add To Cart",
     description:
       "Build A product page for fetching products from API and show it on product page , product added to cart and remove it functionality attached to it  .Technology used for creating this project is Html ,  Css , javascript , tailwind css , react js .",
     image: addToCart,
