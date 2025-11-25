@@ -88,7 +88,7 @@ export const experiences = [
     img: TTlogo,
     role: "Frontend Developer",
     company: "TT INFOTECHS PVT LTD",
-    date: "Aug 2023 - Present",
+    date: "Nov 2023 - Present",
     desc: "Developed dynamic and scalable web applications using the MERN stack, handling only frontend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
     skills: [
       "HTML",
