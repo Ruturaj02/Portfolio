@@ -104,6 +104,27 @@ export const experiences = [
       " Next Js",
     ],
   },
+    {
+    id: 0,
+    img: TTlogo,
+    role: "React trainee",
+    company: "JS systech Service Private limited",
+    date: "May 2023 - Oct 2023",
+    desc: "Developed dynamic and scalable web applications using the MERN stack, handling only frontend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+    skills: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "React JS",
+      "TypeScript",
+      "Node JS",
+      "Tailwind CSS",
+      "MongoDb",
+      "Redux js",
+      " Next Js",
+    ],
+  },
 ];
 
 export const education = [
