@@ -20,6 +20,10 @@ import postmanLogo from "./assets/tech_logo/postman.png";
 import mcLogo from "./assets/tech_logo/mc.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
+import pythonLogo from "./assets/tech_logo/python.png";
+import redisLogo from "./assets/tech_logo/redis.png";
+import postgresqlLogo from "./assets/tech_logo/postgresql.png";
+import dockerLogo from "./assets/tech_logo/docker.png";
 
 // Experience Section Logo's
 import TTlogo from "./assets/company_logo/TT logo.png";
@@ -59,6 +63,8 @@ export const SkillsInfo = [
       { name: "Node JS", logo: nodejsLogo },
       { name: "Express JS", logo: expressjsLogo },
       { name: "MongoDB", logo: mongodbLogo },
+      { name: "Redis", logo: redisLogo },
+      { name: "PostgreSQL", logo: postgresqlLogo },
     ],
   },
   {
@@ -66,6 +72,7 @@ export const SkillsInfo = [
     skills: [
       { name: "JavaScript", logo: javascriptLogo },
       { name: "TypeScript", logo: typescriptLogo },
+      { name: "Python", logo: pythonLogo },
     ],
   },
   {
@@ -78,6 +85,7 @@ export const SkillsInfo = [
       { name: "Compass", logo: mcLogo },
       { name: "Vercel", logo: vercelLogo },
       { name: "Netlify", logo: netlifyLogo },
+      { name: "Docker", logo: dockerLogo },
     ],
   },
 ];
