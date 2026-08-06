@@ -14,10 +14,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_ipb6pgt",
-        "template_pg4icem",
+        "service_a40u69g",        // email service key
+        "template_oexuvql",      // template key
         form.current,
-        "XzwB1nsIPpbmQxl7J"
+        "XzwB1nsIPpbmQxl7J"       //public key
       )
       .then(
         () => {
